@@ -21,7 +21,7 @@ public class DatabaseProcess {
 	
 	public DatabaseProcess() {
 		this.driverClassName = "org.postgresql.Driver";
-		this.url = "jdbc:postgresql://172.16.138.203:5432/afisvn_sample";
+		this.url = "jdbc:postgresql://127.0.0.1:5432/School";
 		this.username = "postgres";
 		this.password = "postgres";
 	}
